@@ -21,7 +21,7 @@ void sequential_execution (int nr_rows, int nr_cols);
 void parallel_execution   (int nr_rows, int nr_cols, int threads);
 bool isSolutionCorrect    (int nr_rows, int nr_cols);
 
-int main (int argc, char *argv[])
+int main (int argc, char *argv[]  )
 {
     for (int t : threads)
       {
